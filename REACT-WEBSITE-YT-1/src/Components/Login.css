@@ -1,14 +1,19 @@
 
-.login {
-    width: 400px;
-    background: #fff;
+.login 
+{
+    height: 100vh;
+    width: 100%;
+    background: rgb(107, 101, 101);
     border: 1px solid #dddfe2;
     box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
     border-radius: 8px;
-    padding: 1rem;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    text-align: center;
-}
+    object-fit: contain;
+    }
 
 .login > input {
     border-radius: 8px;
@@ -17,7 +22,7 @@
     color: #1d2129;
     margin: 0.5rem 0;
     padding: 0.5rem 0.75rem;
-    width: 92%;
+    width: 25%;
     font-size: 1rem;
 }
 
@@ -29,6 +34,7 @@
     padding: 0.5rem;
     margin: 0.5rem 0;
     border-radius: 8px;
+   
     outline: none;
     cursor: pointer;
 }
